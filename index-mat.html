@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -8,9 +9,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>My App</title>
   <!-- Path to Framework7 Library CSS-->
-  <link rel="stylesheet" href="css/framework7.ios.min.css">
+  <!-- Path to Framework7 Library CSS, Material Theme -->
+  <link rel="stylesheet" href="css/framework7.material.min.css">
+  <!-- Path to Framework7 color related styles, Material Theme -->
+  <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+  <!-- Path to your custom app styles-->
   <link rel="stylesheet" href="css/framework7-icons.css">
-  <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
   <!-- Path to your custom app styles-->
   <link rel="stylesheet" href="css/my-app.css">
 </head>
@@ -34,7 +38,7 @@
   </div>
   <!-- Views, and they are tabs-->
   <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
-  <div class="views tabs toolbar-through">
+  <div class="views tabs toolbar-fixed">
     <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
     <div id="view-1" class="view view-main tab active">
       <!-- Pages-->
@@ -42,6 +46,7 @@
         <!-- Page, data-page contains page name-->
         <div data-page="index-1" class="page green-bg-boy">
           <!-- Scrollable page content-->
+
           <div class="page-content">
             <div class="content-block-title bigTitle">Our Children, Their Future, Education Vision and Strategy</div>
             <div class="content-block">
@@ -62,13 +67,13 @@
     </div>
     <!-- Second view (for second wrap)-->
     <div id="view-2" class="view tab">
-      <!-- We can make with view with navigation, let's add Top Navbar-->
+      <!-- Top Navbar-->
       <div class="navbar">
         <div class="navbar-inner">
           <div class="center sliding">Our Vision</div>
         </div>
       </div>
-      <div class="pages navbar-through">
+      <div class="pages navbar-fixed">
         <div data-page="index-2" class="page">
           <div class="page-content">
             <!--<div class="content-block">
@@ -110,7 +115,7 @@
                   <a href="vision.html" class="item-link bg-lightblue">
                     <div class="item-content">
                       <div class="item-inner">
-                        <div class="item-title">Our vision</div>
+                        <div class="item-title"><img src="images/circle.png" alt="" />Our vision</div>
                       </div>
                     </div>
                   </a>
@@ -122,31 +127,26 @@
       </div>
     </div>
     <div id="view-3" class="view tab">
-      <div class="navbar">
-        <div class="navbar-inner">
-          <div class="center sliding">Objectives</div>
-        </div>
-      </div>
+
       <div class="pages navbar-fixed">
         <div data-page="index-3" class="page">
+
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="center sliding">Objectives</div>
+            </div>
+          </div>
+
           <div class="page-content">
-
-
-
-
-
             <div class="list-block">
               <ul>
                 <li>
                   <a href="obj1.html" class="item-link bg-green">
                     <div class="item-content">
                       <div class="item-inner">
-                        <div class="item-title">Objective 1<br>Priority Actions:
-Improve the overall quality of learning experiences
-Tackle disadvantage and deprivation to close the attainment gap.
-Improve literacy, numeracy and health & wellbeing outcomes for children and young people.
-Continually improve curriculum design and development.
-                          </div>
+                        <div class="item-title">Objective 1<br>Priority Actions: Improve the overall quality of learning experiences Tackle disadvantage and deprivation to close the attainment gap. Improve literacy, numeracy and health & wellbeing outcomes for children and young
+                          people. Continually improve curriculum design and development.
+                        </div>
 
                       </div>
                     </div>
@@ -199,24 +199,9 @@ Continually improve curriculum design and development.
                 </li>
               </ul>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="content-block">
               <div class="content-block-inner">
               </div>
-
             </div>
           </div>
         </div>
@@ -231,27 +216,40 @@ Continually improve curriculum design and development.
             </div>
           </div>
           <div class="page-content">
-                    <div class="content-block">
-              <p>It is essential to gather and use performance information to intervene to secure
-improvement for both individual children and groups. We will actively engage parents and
-young people in these processes.</p>
-<p>Presentation of quarterly performance information to Council and Community Services Committee as part of the Council’s performance management reporting systems.</p>
-<p>Preparation and publication of an annual statement of standards and quality reporting.</p>
-<p>Presentation of relevant committee papers to Community Services Committee for example SQA examinations outcomes.
-Submission of relevant performance information to Scottish Government for example outcomes for looked after children, attendance and exclusions.</p>
-<p>To deliver improved outcomes for children and young people Education Services will:</p>
-<ol><li>Ensure that plans are in place for Education Services, individual teams and schools
-across the Council and that these include appropriate measures of success.</li>
-<li>Take action to deliver the key ambitions for our children, young people and communities</li>
-<li>Monitor progress against clear measures found in Council, Service and School Improvement Plans</li>
-<li>Sustain continuous improvement and address agreed areas for further development highlighted through self-evaluation.</li></ol>
+            <div class="content-block">
+              <p>
+                We must evaluate the impact of improvement.
+  Data should demonstrate improvement.
+              </p>
+<p>
+  We should also analyse people’s views and observations of the quality of learning.
+  Building capacity across education is supported by sharing professional learning.
+</p> We need to be able to consider what the evidence tells us about progress for individual
+children and across ELC, classes, schools and education services. We need to identify
+success and use our evaluation information to plan next steps. We will report on progress
+on an annual basis</p>
+<div style="text-align:center">
+
+<img src="images/tri.png" alt="triangle"/></div>
+              <p>It is essential to gather and use performance information to intervene to secure improvement for both individual children and groups. We will actively engage parents and young people in these processes.</p>
+              <p>Presentation of quarterly performance information to Council and Community Services Committee as part of the Council’s performance management reporting systems.</p>
+              <p>Preparation and publication of an annual statement of standards and quality reporting.</p>
+              <p>Presentation of relevant committee papers to Community Services Committee for example SQA examinations outcomes. Submission of relevant performance information to Scottish Government for example outcomes for looked after children, attendance
+                and exclusions.</p>
+              <p>To deliver improved outcomes for children and young people Education Services will:</p>
+              <ol>
+                <li>Ensure that plans are in place for Education Services, individual teams and schools across the Council and that these include appropriate measures of success.</li>
+                <li>Take action to deliver the key ambitions for our children, young people and communities</li>
+                <li>Monitor progress against clear measures found in Council, Service and School Improvement Plans</li>
+                <li>Sustain continuous improvement and address agreed areas for further development highlighted through self-evaluation.</li>
+              </ol>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-<!-- page 5 -->
+    <!-- page 5 -->
     <div id="view-5" class="view tab">
       <div class="pages navbar-fixed">
         <div data-page="index-5" class="page">
@@ -264,32 +262,30 @@ across the Council and that these include appropriate measures of success.</li>
 
             <div class="content-block">
               <p>Monitoring and Review of Our Children, Their Future</p>
-              <p>Our Children, Their Future belongs to those whose education we provide, to the families
-that support them and to our staff who daily have the challenge and joy of being such a
-critical part of those children and young people’s lives. We will ensure that we involve all
-stakeholders’ in monitoring and reviewing our strategy.</p>
+              <p>Our Children, Their Future belongs to those whose education we provide, to the families that support them and to our staff who daily have the challenge and joy of being such a critical part of those children and young people’s lives. We
+                will ensure that we involve all stakeholders’ in monitoring and reviewing our strategy.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    <!-- Bottom Tabbar-->
-    <div class="toolbar tabbar tabbar-labels">
+    <div class="toolbar tabbar tabbar-labels tabbar-scrollable">
       <div class="toolbar-inner">
         <a href="#view-1" class="tab-link active"> <i class="f7-icons">home</i><span class="tabbar-label">Home</span></a>
         <a href="#view-2" class="tab-link"><i class="f7-icons">eye</i><span class="tabbar-label">Our Vision</span></a>
         <a href="#view-3" class="tab-link"> <i class="f7-icons">list</i><span class="tabbar-label">6 Objectives</span></a>
         <a href="#view-4" class="tab-link"> <i class="f7-icons">navigation</i><span class="tabbar-label">Outcomes</span></a>
-<a href="#view-5" class="tab-link"> <i class="f7-icons">search</i><span class="tabbar-label">Monitoring</span></a>
+        <a href="#view-5" class="tab-link"> <i class="f7-icons">search</i><span class="tabbar-label">Monitoring</span></a>
       </div>
     </div>
+    <!-- Bottom Tabbar-->
+
   </div>
   <!-- Path to Framework7 Library JS-->
   <script type="text/javascript" src="js/framework7.min.js"></script>
   <!-- Path to your app js-->
-  <script type="text/javascript" src="js/my-app.js"></script>
+  <script type="text/javascript" src="js/my-app-mat.js"></script>
 </body>
 
 </html>
