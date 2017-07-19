@@ -16,5 +16,12 @@
   <author href="https://www.argyll-bute.gov.uk" email="website@argyll-bute.gov.uk">
       Lorne MacBrayne
   </author>
+  
+<icon src="images/res/mipmap-mdpi/ic_launcher.png" platform="android" qualifier="mdpi" />
+<icon src="images/res/mipmap-hdpi/ic_launcher.png" platform="android" qualifier="hdpi" />
+<icon src="images/res/mipmap-xhdpi/ic_launcher.png" platform="android" qualifier="xhdpi" />
+<icon src="images/res/mipmap-xxhdpi/ic_launcher.png" platform="android" qualifier="xxhdpi" />
+<icon src="images/res/mipmap-xxxhdpi/ic_launcher.png" platform="android" qualifier="xxxhdpi" />
+
 
 </widget>
