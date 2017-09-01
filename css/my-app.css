@@ -111,3 +111,7 @@ overflow: visible;
     padding-right: 6px !important;
 	padding-bottom:20px;
 }
+
+.list-block .item-title {
+    width: 100% !important;
+}
