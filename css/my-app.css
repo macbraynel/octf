@@ -63,3 +63,51 @@ color:#fff;
   white-space: normal;
   text-overflow: auto;
 }
+
+.ob_title{font-weight:bold;
+font-size: 1.3em;
+color:#fff;
+vertical-align: middle;
+padding-left:4px;}
+
+
+.page {
+    background: #fff;
+}
+
+.tabbar {
+    color: #393939;
+}
+
+.tabbar.theme-green a.active, .tabbar.theme-green a.active i, .theme-green .tabbar a.active, .theme-green .tabbar a.active i {
+    color: #0b8921;
+}
+
+.rounded-img{
+border-radius: 5px;
+}
+
+.bg-lightblue, .button.button-fill.bg-lightblue, .list-block .swipeout-actions-left a.bg-lightblue, .list-block .swipeout-actions-right a.bg-lightblue, a.bg-lightblue {
+    background-color: #9fccec;
+}
+
+.bg-green, .button.button-fill.bg-green, .list-block .swipeout-actions-left a.bg-green, .list-block .swipeout-actions-right a.bg-green, a.bg-green {
+    background-color: #cee3a7;
+}
+
+.list-block .item-title .ob_title {
+    white-space: normal;
+    overflow: visible;
+}
+
+.ob_sub{
+font-size: 0.9em;
+font-style: italic;
+white-space: normal;
+overflow: visible;
+}
+
+.item-title img {
+    padding-right: 6px !important;
+	padding-bottom:20px;
+}
