@@ -46,6 +46,6 @@
         <icon height="50" src="res/icon/ios/icon-50.png" width="50" />
         <icon height="100" src="res/icon/ios/icon-50@2x.png" width="100" />
             </platform>
-        <preference name="phonegap-version" value="cli-6.1.0" /> <!-- build.phonegap.com -->
+        <preference name="phonegap-version" value="cli-6.5.0" /> <!-- build.phonegap.com -->
     <engine name="ios" spec="~4.1.1" />
         </widget>
